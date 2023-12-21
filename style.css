@@ -22,6 +22,7 @@
   --clr-black:#000000;
   --clr-white:#ffffff;
 
-
+   --radius:15px;
+   --transilation:transition: all 2s ease-in;
 
 }
