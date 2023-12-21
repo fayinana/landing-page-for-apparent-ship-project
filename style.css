@@ -6,7 +6,19 @@
 
 
 :root{
-  --clr-primery-1:;
-  --clr-secondery-1:;
-  --radius:;
-  --transform:;
+  --light-clr-primery-1:#519383;
+  --light-clr-primery-2:#62c4c3;
+  --light-clr-secondery-1:#f8d49b;
+  --light-clr-secondery-2:#f8e6cb;
+  --light-clr-background:#ffffff;
+
+  --dark-clr-primry-1:#345da7;
+  --dark-clr-primry-2:#388ac4;
+  --dark-clr-secondery-1:#4bb4de;
+  --dark-clr-secondery-2:#0a091a;
+
+  
+  --clr-black:#000000;
+  --clr-white:#ffffff;
+
+}
