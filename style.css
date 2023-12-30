@@ -93,7 +93,7 @@ background: var(--clr-primary);
   z-index: 2;
 }
 .nav-bar-mobile{
-position: absolute;
+position: fixed;
 top: 0;
 left: 0;
 visibility: hidden;
@@ -135,16 +135,20 @@ border-bottom: 2px solid var(--clr-primary);
 
 
 .nav-btn{
+  position: fixed;
+  top: 20px;
+  right: 20px;
 visibility:visible;
-color: var(--clr-secondery);
-font-size: 1.5rem;
+color: var(--clr-primary);
+font-size: 2rem;
 font-weight: bold;
+z-index: 2;
 
 }
 
 .banner{
   position: relative;
-background: linear-gradient(rgba(0, 0, 0, .6),rgba(0, 0, 0,.5),rgba(0, 0, 0, .8)),url('one.jpg') center/cover fixed no-repeat;
+background: linear-gradient(rgba(0, 0, 0, .6),rgba(0, 0, 0,.5),rgba(0, 0, 0, .8)),url('image/one.jpg') center/cover fixed no-repeat;
 height: 100vh;
 padding:.75rem 2vw;
 animation: image-move 30s ease-in  infinite;
@@ -323,7 +327,8 @@ display: none;
 .book-info{
   align-self: center;
   text-align: center;
-  min-width: 100%;
+  min-width: 250px;
+  text-wrap: balance;
 }
 
 .book-btn{
@@ -333,6 +338,9 @@ display: none;
 
 .book-photo{
   margin-bottom: 2rem;
+  border: 5px solid var(--clr-primary);
+  border-radius: 10px;
+  overflow: hidden;
 }
 
 @media screen and (min-width:768px) {
