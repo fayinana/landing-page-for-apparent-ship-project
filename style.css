@@ -119,7 +119,7 @@ z-index: 1;
  
 }
 
-.nav-bar-mobile li{
+.nav-bar-mobile li a{
   font-size: 1.5rem;
   text-transform: capitalize;
   color: var(--clr-primary);
@@ -128,9 +128,12 @@ list-style-type: none;
 
 }
 
-.nav-bar-mobile li:hover{
+.nav-bar-mobile li a:hover{
 border-bottom: 2px solid var(--clr-primary);
-/* padding:0 .5rem; */
+}
+
+.nav-bar-mobile li.active{
+border-bottom: 2px solid var(--clr-primary);
 }
 
 
