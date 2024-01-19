@@ -124,16 +124,19 @@ z-index: 1;
   text-transform: capitalize;
   color: var(--clr-primary);
   font-weight: bold;
-list-style-type: none;
 
 }
-
+.nav-bar-mobile li {
+  
+list-style-type: none;
+}
 .nav-bar-mobile li a:hover{
 border-bottom: 2px solid var(--clr-primary);
 }
 
 .nav-bar-mobile li.active{
 border-bottom: 2px solid var(--clr-primary);
+  color:yelow:
 }
 
 
